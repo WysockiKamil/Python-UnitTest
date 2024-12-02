@@ -20,4 +20,4 @@ def calc_tax(amount, tax_rate, age):
     elif age <= 65:
         return int(amount * tax_rate)
     else:
-        return int(min(amount*tax_rate, 8000))
+        return int(min(amount*tax_rate, 7000))
