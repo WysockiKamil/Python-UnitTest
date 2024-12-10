@@ -1,16 +1,5 @@
 import unittest
-
 from calculator.calc_math import SimpleMathCalculator
-
-# def setUpModule():
-#     print('setting up...')
-#     global calc
-#     calc = SimpleMathCalculator()
-#
-# def tearDownModule():
-#     print('tearing down....')
-#     global calc
-#     del calc
 
 
 class TestSimpleMathCalculatorAdd(unittest.TestCase):
